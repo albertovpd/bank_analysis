@@ -2,6 +2,10 @@
 
 I was thinking on opening a new bank account and in the way i thought "damn, I could analyse the sentiment in news related to each bank available in Spain and make an automated dashboard". So this is the project.
 
+![alt](output/bank_analysis_dashboard.png "dashboard")
+
+(Still under development)
+
 - https://datastudio.google.com/reporting/75eec703-abf7-48ff-bee7-d34fd9cb701e
 
 - The first query processed 185GB, costed 0.85€ (requesting info from 2005), lasted 53 seconds to be done. 
@@ -63,6 +67,7 @@ I was thinking on opening a new bank account and in the way i thought "damn, I c
 - wizink
 
 ### 5. Results
+
 
 - To search accurately, I need to search all names related with every company.
 
