@@ -10,6 +10,7 @@ I was thinking on opening a new bank account and in the way i thought "damn, I c
 2. Sentiment analysis metrics.
 3. How to.
 4. Keywords to analyse.
+5. Results
 
 ---------------------------------------
 
@@ -60,3 +61,20 @@ I was thinking on opening a new bank account and in the way i thought "damn, I c
 - triodos
 - unicaja
 - wizink
+
+### 5. Results
+
+- To search accurately, I need to search all names related with every company.
+
+- I tried to filter banks as Organizations in Gdelt. The outcome is not valid yet. For instance, the filter is passed by elements of the Premier League (Barclays league), or BBVA league in Spain. This at first, is not that bad, because it tells the influence of a company. But if I'm going to get every word related to a keyword, it must be done the same for every keyword. 
+
+Example of increasing the scope (Alex idea https://www.linkedin.com/in/alexmasip/):
+
+- Caixabank case.
+
+        AllNames LIKE 'CaixaBank%' OR AllNames LIKE '%CaixaCorp%' OR AllNames LIKE '%LaCaixa%' OR AllNames LIKE '%Caixabank%' OR Organizations LIKE '%caixabank%'
+
+- BBVA case.
+
+        AND (AllNames LIKE '%BBVA%' OR AllNames LIKE '%Argentaria%' OR Organizations LIKE '%argentaria%')
+
