@@ -4,7 +4,10 @@ I was thinking on opening a new bank account and in the way i thought "damn, I c
 
 ![alt](output/bank_analysis_dashboard.png "dashboard")
 
-(Still under development)
+**Under development**.
+*This project is going to be frozen for a long time. In case you would like to know how I was planning to do it, I Strongly recommend you to take a glance to a repository of mine called "Analysing Elon Musk companies". It's goint to be the same, but with bank keywords*
+
+*Mentioned repo=> https://github.com/albertovpd/elon_musk_influence_in_news*
 
 - https://datastudio.google.com/reporting/75eec703-abf7-48ff-bee7-d34fd9cb701e
 
